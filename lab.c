@@ -3,17 +3,49 @@
 #include <string.h>
 #define EOL '\n'
 
-struct country {
+struct nations {
   char name[15];
   int score;
+  int pointsToCounntry[20];
 };
+
+struct nations country[n];
+
+int workArray[20];
+
+for(unsigned j = 0; j < n; ++j) {
+
+
+for(unsigned i = 0; i < n; ++i) {
+  workArray[i] = country[i].pointsToCounntry[0];
+}
+
+ALL THE WORK ON ARRAY //--//
+SCORE += ...
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 main() {
 FILE * file;
 file = fopen("eurovision.csv", "r");
 /*/
 get how many countries we have (read first line)-> n
-struct country country[n];
+struct countries country[n];
 while(file != EOF)
   read until comma -> x
     char value;
